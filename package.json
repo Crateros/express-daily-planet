@@ -1,0 +1,28 @@
+{
+  "name": "express-daily-planet",
+  "version": "1.0.0",
+  "description": "![Daily Planet](http://blogs.smithsonianmag.com/design/files/2013/06/first-daily-planet1.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crateros/express-daily-planet.git"
+  },
+  "author": "Donnie Ellstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crateros/express-daily-planet/issues"
+  },
+  "homepage": "https://github.com/Crateros/express-daily-planet#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.28.0"
+  }
+}
