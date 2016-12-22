@@ -1,0 +1,15 @@
+<h3>Search Results:</h3>
+<% if (searchresult.length === 0) { %>
+  <p>No results.</p>
+<% } %>
+<% searchresult.forEach(function(article){ %>
+  <h3>
+    <a href="/article/<%- article.id %>"<%- article.title %></a>
+  </h3>
+  <p style="color:black">
+    <%- article.title %>
+  </p>
+  <p>
+    <%- article.content %>
+  </p>
+<% }); %>
